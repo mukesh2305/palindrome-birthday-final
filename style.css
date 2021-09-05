@@ -1,0 +1,51 @@
+body {
+  background-color: whitesmoke;
+}
+main {
+  text-align: center;
+  /* background-color: whitesmoke; */
+  /* height: 35vh; */
+}
+
+#show-btn {
+  margin-top: 1rem;
+  padding: 0.7rem 2rem;
+  border-radius: 100px;
+  background-color: #8f807f;
+  border: none;
+  cursor: pointer;
+}
+#show-btn:hover {
+  background-color: orangered;
+  color: #fff;
+}
+
+input {
+  padding: 1rem 3rem;
+  border-radius: 100px;
+  outline: none;
+  font-size: 1.2rem;
+  border: none;
+  background-color: #62a37a;
+  cursor: pointer;
+}
+input:hover {
+  background-color: rgb(67, 110, 67);
+  color: #fff;
+}
+
+.result-p {
+  background-image: linear-gradient(
+    to right top,
+    #477840,
+    #007c64,
+    #007aab,
+    #006eea,
+    #1241eb
+  );
+  border-radius: 100px;
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 1rem 0px;
+  margin-top: 1rem;
+}
